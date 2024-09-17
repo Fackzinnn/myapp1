@@ -1,6 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 
+
 export default function Page() {
     return (
         <View style={styles.container}>
@@ -12,6 +13,9 @@ export default function Page() {
             </Link>
             <Link href='/listatarefas' style={styles.link}>
                 <Text style={styles.linkText}>Lista</Text>
+            </Link>
+            <Link href='/pokemon' style={styles.link}>
+                <Text style={styles.linkText}>pokemon</Text>
             </Link>
         </View>
     );
