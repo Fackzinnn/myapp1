@@ -8,6 +8,9 @@ export default function Page() {
             <Link href='/calculadora' style={styles.link}>
                 <Text style={styles.linkText}>calculeiton</Text>
             </Link>
+            <Link href='/camera' style={styles.link}>
+                <Text style={styles.linkText}>camera</Text>
+            </Link>
             <Link href='/screen' style={styles.link}>
                 <Text style={styles.linkText}>screen</Text>
             </Link>
