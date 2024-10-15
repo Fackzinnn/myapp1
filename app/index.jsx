@@ -20,7 +20,11 @@ export default function Page() {
             <Link href='/pokemon' style={styles.link}>
                 <Text style={styles.linkText}>pokemon</Text>
             </Link>
+            <Link href='/memoria' style={styles.link}>
+                <Text style={styles.linkText}>Memoria</Text>
+            </Link>
         </View>
+        
     );
 }
 
